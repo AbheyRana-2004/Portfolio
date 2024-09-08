@@ -3,67 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="index.css">
-    <title>My-Portfolio</title>
+    <title>My Portfolio </title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
         <a href="" class="logo">A<span>-rana</span></a>
-        <div class="navbar">
+
+        <nav class="navbar">
             <a href="#" class="active">Profile</a>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact Me</a>
-        </div>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Contect">Contect</a>
+        </nav>
     </header>
 
-    
+     </div>
     <section class="home" id="Home">
         <div class="home-contact">
-            <h2>Hi!</h2>
+            <h3>Hi !</h3>
 
-            <h1>I am <span>Abhey Rana</span> a frontend developer</h1>
+            <h1>I am<span>Abhey Rana</span> a frontend developer</h1>
 
-            <p>I am Abhey Rana, a BCA graduate from Government Ranbir College with a passion for technology. I have hands-on project experience and strong skills in teamwork and problem-solving. I am dedicated to excelling in the tech field. Thank you!
+            <p>I' am Abhey Rana, a BCA graduate from SIMLA UNIVERSITY with a passion for technology. I have hands-on project experience and strong skills in teamwork and problem-solving. I am dedicated to excelling in the tech field. Thank you!
 
             </p>
-            <div class="btn-box"></div>
-                <a href="" class="btn-1">Contact</a>
-                <a href="" class="btn-2">Resume</a>
+      
+            <div class="btn-box">
+                <a class="btn-1" href="#Contect">Contect</a>
+                <a href="" class="btn-2" >Resume</a>
             </div>
-        
-         <div class="img-box">
-            <img src="vr mall.jpeg" alt="Abhey's Photo" class="img1">
-          </div>
         </div>
 
-        <!-- <section class="contact-form" id="Contect">
-            <h2 class="contact-me">Contact<span> Me</span></h2>
-    
-            <form action="" >
-    
-            <div class="input-box">
-    
-                <input type="text"  name="name" placeholder="Full Name">
-    
-                <input type="email" name="email" value="" placeholder="E-mail">
-                
-            </div>
-            
-            <div class="input-box">
-    
-                <input type="number" name="phone-number" placeholder="Phone Number">
-    
-                <input type="text" name="subject" placeholder="Subject">
-    
-            </div>
-    
-            <textarea name="comment"  id="" cols="30" rows="10" placeholder="Your Message">
-            </textarea>
-            <input type="submit" value="send Message" class="btn-1">
-    
-            </form>
-        </section> -->
+         <div class="img-box">
+            <img src="vr mall.jpeg" alt="Abhey's Photo" class="img1">
+         </div>
 
+    </section>
+
+    <section class="about" id="About">
+        <div class="about-img" >
+            <img src="vr mall.jpeg" alt="#" class="img1">
+        </div>
+
+      <div class="about-content" >
+        <h2 class="heading">About<span>Me</span></h2>
+        <h3>Frontend<span> Developer</span></h3>
+
+        <P  >I am Abhey Rana, a BCA graduate from SHIMLA University with a strong interest in frontend web development. I am passionate about designing and building user-friendly, visually appealing websites. I have gained practical experience through various projects and am always eager to learn new technologies and tools. My goal is to create engaging web experiences and continuously improve my skills in this field.</P>
+        <a href="#" class="btn-2">Experience</a>
+
+      </div>
+
+    </section>
+
+    <section class="contact-form" id="Contect" >
+        <h2 class="contact-me">Contact<span> Me</span></h2>
+
+        <form action="" >
+
+        <div class="input-box">
+
+            <input type="text"  name="name" placeholder="Full Name">
+
+            <input type="email" name="email" value="" placeholder="E-mail">
+            
+        </div>
+        
+        <div class="input-box">
+
+            <input type="number" name="phone-number" placeholder="Phone Number">
+
+            <input type="text" name="subject" placeholder="Subject">
+
+        </div>
+
+        <textarea name="comment" id="" cols="30" rows="10" placeholder="Your Message.." ></textarea>
+        <input type="submit" value="send Message" class="btn-1">
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a>FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright">&#12004 Abhey Rana | All Right Reserved</p>
+    </footer>
+    
 </body>
 </html>
