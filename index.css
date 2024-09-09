@@ -185,7 +185,6 @@ span {
 .about-img img {
     position: relative;
     width: 500px;
-    height: 550px;
     box-shadow: 0 0 25px brown,
         0 0 50px brown;
     border-radius: 50%;
